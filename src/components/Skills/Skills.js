@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Progress } from 'antd';
 
  class Skills extends Component {
     render() {

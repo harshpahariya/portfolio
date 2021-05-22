@@ -9,10 +9,12 @@ import {
     UploadOutlined,
 } from '@ant-design/icons';
 import './layout.css';
-import Skills from './Skills';
-import Info from './Info';
-import Experience from './Experience';
+import Skills from './Skills/Skills';
+import Info from './Info/Info';
+import Experience from './Experience/Experience';
 import { Switch, Link, Route } from 'react-router-dom';
+import Education from './Education/Education';
+import Project from './Project/Project';
 
 const { Header, Sider, Content } = Layout;
 
@@ -29,7 +31,7 @@ class MyLayout extends React.Component {
 
     render() {
         return (
-            <Layout style={{ height: '657px' }}>
+            <Layout style={{ height: '100vh' }}>
                 <Sider trigger={null} collapsible collapsed={this.state.collapsed}>
                     <div className="logo">{this.state.collapsed ? "John" : "John Doe"}</div>
                     <div className="avatar"><Avatar size={this.state.collapsed ? 50 : 90} icon={<UserOutlined />} />J</div>
@@ -60,7 +62,9 @@ class MyLayout extends React.Component {
                     </Link>
                         </Menu.Item>
                         <Menu.Item key="5" icon={<UploadOutlined />}>
+                        <Link to='/projects'>
                             Projects
+                        </Link>
                     </Menu.Item>
 
                     </Menu>
@@ -85,6 +89,8 @@ class MyLayout extends React.Component {
                             <Route path='/' exact component={Info} />
                             <Route path='/skills' component={Skills} />
                             <Route path='/experience' component={Experience} />
+                            <Route path='/education' component={Education} />
+                            <Route path='/projects' component={Project} />
                         </Switch>
 
                     </Content>

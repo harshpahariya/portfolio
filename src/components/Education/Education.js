@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 
-class Test extends Component {
+export class Education extends Component {
     render() {
         return (
             <div>
-                {this.props.secret}
+                Education
             </div>
         )
     }
 }
 
-export default Test
+export default Education
