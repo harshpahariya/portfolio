@@ -1,16 +1,13 @@
 import React from 'react';
-//harsh
-import Tags from './components/Tags';
-import './App.css';
+import MyLayout from './components/Layout';
+
+import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-     
-     <Tags />
-
-
-    </div>
+      <Router>
+        <MyLayout />
+      </Router>
   );
 }
 

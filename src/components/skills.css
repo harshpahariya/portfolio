@@ -1,0 +1,11 @@
+.skills-section {
+    display: flex;
+}
+
+.card {
+    height: 100px;
+    width: 90%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
