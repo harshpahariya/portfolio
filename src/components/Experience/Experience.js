@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Timeline,Typography } from 'antd';
 import {SendOutlined} from '@ant-design/icons';
-const {Text,Title} = Typography;
+const {Text} = Typography;
 
 
 class Experience extends Component {
