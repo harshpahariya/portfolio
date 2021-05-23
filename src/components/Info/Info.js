@@ -23,8 +23,8 @@ class Info extends Component {
                 <Divider />
                 <div style={{display:'flex',flexDirection:'row'}}>
                     <div style={{marginTop:'10vh'}}><Text style={{fontSize:'30px'}} type="secondary" underline>Contact me</Text></div>
-                    <div style={{ marginLeft: '14%'}}>
-                        
+                    <div style={{ marginLeft: '14%',display:'flex',flexDirection:'column'}}>
+                        <div>
                         <Tooltip title="github">
                             <GithubOutlined style={{ fontSize: '2.5em', margin: '10px', padding: '10px' }} />
                         </Tooltip>
@@ -40,6 +40,11 @@ class Info extends Component {
                         <Tooltip title="Twitter">
                             <TwitterOutlined style={{ fontSize: '2.5em', margin: '10px', padding: '10px' }} />
                         </Tooltip>
+                        </div>
+                   
+                    <div>
+                        contact
+                    </div>
                     </div>
                 </div>
                 
