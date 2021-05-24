@@ -1,0 +1,46 @@
+{
+    "Languages":{
+        "Javascript":{
+            "frameworks":["NodeJs","expressJs","React","antd"],
+            "rating":90
+        },
+        "Typescript":{
+            "frameworks":["NestJs"],
+            "rating":90
+        },
+        "Python":{
+            "frameworks":["Flask", "FastAPI","pytest","mocha"],
+            "rating":70
+        },
+        "Java":{
+            "frameworks":["Springboot","JUnit","mockito"],
+            "rating":60
+        }
+    },
+    "Frameworks":{
+        "Frontend":["React","antd","HTML","CSS"],
+        "Backend":["NodeJs","expressJs","NestJs","Flask", "FastAPI","Springboot"],
+        "Testing":["pytest","mocha","JUnit","mockito"]
+    },
+    "Databases":{
+        "mongoDb":{
+            "rating":80
+        },
+        "SQL":{
+            "rating":40
+        },
+        "elasticsearch":{
+            "rating":60
+        },
+        "Redis":{
+            "rating":100
+        }
+    },
+    "Tools":{
+        "Version_Control":["Git"],
+        "Orchestration":["Docker","Kubernetes"],
+        "Cloud_Providers": ["AWS","GCP"],
+        "Other_Tools":["Grafana","Sentry","eslint"],
+        "Automation":["Gitlab CI", "ansible"]
+    }
+}
