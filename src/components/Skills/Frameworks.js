@@ -1,5 +1,5 @@
 import React from 'react'
-import {Tag, Progress, Typography } from 'antd';
+import {Tag, Typography } from 'antd';
 let {Title} = Typography
 
 export default function Frameworks(props) {
